@@ -41,18 +41,21 @@ const Menu = [
     image: Work5,
     title: "TODO LIST APP",
     category: "scss/react",
+    link: "https://huuvandev98.github.io/todolist-react/"
   },
   {
     id: 6,
     image: Work6,
     title: "MY PORTFOLIO",
     category: "scss/react",
+    link: "https://huuvandev98.github.io/portfolio-react/"
   },
   {
     id: 7,
     image: Work7,
     title: "MOVIE APP",
     category: "scss/react",
+    link: "https://huuvandev98.github.io/cinema-movie/"
   },
 ];
 
