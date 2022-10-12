@@ -1,0 +1,127 @@
+.about__container{
+    grid-template-columns: 3fr 9fr;
+    column-gap: 1.875rem;
+    align-items: center;
+}
+
+.about__data{
+    padding: 1.875rem;
+    background-color: var(--container-color);
+    box-shadow: var(--shadow);
+    border-radius: var(--border-radius);
+    align-items: flex-start;
+    position: relative;
+}
+
+.about__data::before{
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 15px solid var(--container-color);
+    position: absolute;
+    left: -0.93rem;
+    top: 20%;
+}
+.about__img{
+    border-radius: 20px;
+    width: 80%;
+}
+
+.about__description{
+    margin-bottom: 1rem;
+    text-align: justify;
+}
+.about__list{
+    margin-bottom: 1rem;
+}
+.about__list li{
+    margin-bottom: 1rem;
+    display: flex;
+}
+.about__list li span:first-child{
+   font-weight: 600;
+   color: #000000;
+   width: 130px;
+}
+.about__list li span {
+    width: calc(100% - 130px);
+    font-weight: 600;
+    color: var(----text-color);
+}
+.about__list li span a{
+    color: var(----text-color);
+}
+.about__list li span a:hover{
+    color: rgb(32, 123, 243);
+}
+.about__boxes{
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1.875rem;
+    margin-top: 4.35rem;
+
+}
+.about__box{
+    display: flex;
+    column-gap: 1.5rem;
+
+}
+.about__icon{
+    font-size: var(--h1-font-size);
+    color: #dedede;
+}
+.about__title{
+    font-size: 1.875rem;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .about__container{
+        grid-template-columns: 720px;
+        justify-content: center;
+        row-gap: 1.875rem;
+
+    }
+    .about__data::before{
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid #fff;
+        left: 49%;
+        top:-20px;
+    }
+    .about__img{
+        justify-self: center;
+        width: 50%;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .about__container{
+        grid-template-columns: 350px;
+    }
+    .about__data::before{
+        left: 47%;
+
+    }
+    .about__img{
+        width: 90%;
+    }
+    .about__data{
+        grid-template-columns: 1fr;
+        row-gap: 1.875rem;
+    }
+    .about__list li span:first-child{
+        width: 70px;
+    }
+}
+@media screen and (max-width: 576px){
+    .about__container{
+        grid-template-columns: 320px;
+    }
+}
+@media screen and (max-width: 320px){
+    .about__container{
+        grid-template-columns: 1fr;
+    }
+}
