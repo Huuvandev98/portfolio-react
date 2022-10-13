@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/portfolio-react/static/css/main.7d82c536.css",
-    "main.js": "/portfolio-react/static/js/main.42d4f7ca.js",
+    "main.js": "/portfolio-react/static/js/main.acbc6883.js",
     "static/media/pro7.png": "/portfolio-react/static/media/pro7.ff2e6fc0209457031749.png",
     "static/media/avatar.jpg": "/portfolio-react/static/media/avatar.1b1fce9c7d783a86966d.jpg",
     "static/media/pro2.jpg": "/portfolio-react/static/media/pro2.fd4140f102a00e819d1f.jpg",
     "static/media/pro3.jpg": "/portfolio-react/static/media/pro3.57f75cd3288679b06f65.jpg",
     "static/media/skill7.png": "/portfolio-react/static/media/skill7.81ed438b18e24116794d.png",
     "static/media/pro4.jpg": "/portfolio-react/static/media/pro4.4df2d780631a8a12fd68.jpg",
+    "static/media/NGUYEN-HUU-VAN-FRONT-END-CV.pdf": "/portfolio-react/static/media/NGUYEN-HUU-VAN-FRONT-END-CV.1217daac80347e3f5fe5.pdf",
     "static/media/pro1.jpg": "/portfolio-react/static/media/pro1.8be8613117477385ea18.jpg",
     "static/media/pro6.png": "/portfolio-react/static/media/pro6.acaeb19e805dd2e6fcca.png",
     "static/media/logo3.png": "/portfolio-react/static/media/logo3.108b9304a1119d9dda71.png",
@@ -19,10 +20,10 @@
     "static/media/dots-bg.svg": "/portfolio-react/static/media/dots-bg.aa8289c51cd678b8cd47.svg",
     "index.html": "/portfolio-react/index.html",
     "main.7d82c536.css.map": "/portfolio-react/static/css/main.7d82c536.css.map",
-    "main.42d4f7ca.js.map": "/portfolio-react/static/js/main.42d4f7ca.js.map"
+    "main.acbc6883.js.map": "/portfolio-react/static/js/main.acbc6883.js.map"
   },
   "entrypoints": [
     "static/css/main.7d82c536.css",
-    "static/js/main.42d4f7ca.js"
+    "static/js/main.acbc6883.js"
   ]
 }
