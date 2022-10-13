@@ -6,9 +6,9 @@ const ScrollDown = () => {
     <div className="scroll__down">
       <a href="#about" className="mouse__wrapper">
         <span className="home__scroll--name"> Scroll Down</span>
-        <spas className="mouse">
+        <span className="mouse">
           <span className="wheel"></span>
-        </spas>
+        </span>
       </a>
     </div>
   );
