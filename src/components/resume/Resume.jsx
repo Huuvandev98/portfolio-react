@@ -1,3 +1,4 @@
+/* eslint-disable array-callback-return */
 import React from "react";
 import Data from "./Data";
 import "./resume.css";

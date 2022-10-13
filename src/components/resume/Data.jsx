@@ -5,8 +5,8 @@ const Data = [
     category: "education",
     icon: "icon-graduation",
     year: "2022",
-    title: "Course: FRONT-END DEVELOPER at IVIETECH",
-    desc: "",
+    title: "Course: IVIETECH",
+    desc: "Front-end developer",
   },
   {
     id: 2,
