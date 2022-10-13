@@ -1,6 +1,7 @@
 import React from "react";
 import "./about.css";
 import ImgAbout from "../../assets/avatar.jpg";
+import Cv from "../../assets/NGUYEN-HUU-VAN-FRONT-END-CV.pdf"
 
 const About = () => {
   return (
@@ -34,7 +35,7 @@ const About = () => {
                 <span>Github: </span> <span><a href="https://github.com/Huuvandev98">github.com/Huuvandev98</a></span>
               </li>
             </ul>
-            <a href="asdas" className="btn" download>
+            <a href={Cv} className="btn" download>
               Download CV
             </a>
           </div>
